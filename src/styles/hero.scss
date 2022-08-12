@@ -1,0 +1,309 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#hero {
+  background: url("../img/Rectangle 9.png") no-repeat center/cover;
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &__title {
+      color: white;
+
+      &__logo {
+        display: flex;
+        align-items: center;
+      }
+
+      &__Title {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 59px;
+        width: 779px;
+        margin: 50px 0 50px 0;
+      }
+
+      &__row {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+
+        &__ul {
+          &__li {
+            margin: 15px;
+          }
+        }
+      }
+
+      &__btn {
+        width: 221px;
+        height: 70px;
+        background: #F0F0F0;
+        box-shadow: -1px 10px 10px rgba(87, 101, 228, 0.25), inset -2px -2px 4px rgba(0, 0, 0, 0.2), inset 3px 4px 10px #FFFFFF;
+        border-radius: 15px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 50px 0 50px 0;
+
+        &__tel {
+          color: #16AEC0;
+          text-decoration: none;
+        }
+      }
+    }
+
+    &__img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__circle {
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        margin-left: -70px;
+
+        animation: circleKey 2s linear infinite;
+      }
+
+      &__ambulance {
+        position: absolute;
+        width: 600px;
+        margin-left: -130px;
+      }
+
+    }
+  }
+
+  .day {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+
+      &__img12 {
+        width: 100px;
+        height: 100px;
+        margin: 0 0 16px 0;
+      }
+
+      &__h312 {
+        width: 178px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        margin: 0 0 20px 0;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+@keyframes circleKey {
+
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+#card {
+
+
+  .card {
+    background: url("../img/Group 31.png") no-repeat center/cover;
+
+    &__Title {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+      color: #67CDD9;
+      margin: 50px 0 30px 0;
+    }
+
+    &__MinCard {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      &__cards {
+        width: 474px;
+        height: 250px;
+        background: #FAFAFA;
+        box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+        border-radius: 54px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 40px;
+        margin: 20px;
+
+        &__p3 {
+          width: 90%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+
+          color: #5A5A5A;
+
+        }
+
+        &__title2 {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 37px;
+          color: #67CDD9;
+
+        }
+      }
+
+    }
+
+  }
+}
+
+#connection {
+  background: #F3FEFF;
+
+  .connection {
+    padding: 50px;
+
+    &__title {
+      padding: 50px 0 90px 0;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+      color: #00A1B4;
+    }
+
+    &__our {
+      display: flex;
+      align-items: center;
+
+    }
+
+    &__our {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      &__pro {
+        width: 340px;
+      }
+
+      &__contact {
+        width: 270px;
+        height: 470px;
+        position: absolute;
+        background: #E9FDFF;
+        box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+        border-radius: 54px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__logos {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          &__title {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            text-decoration: none;
+            color: #00A1B4;
+          }
+          &__titles{
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+             color: #00A1B4;
+          }
+          &__cvg{
+            width: 28px;
+            height: 28px;
+            margin: 0 20px 0 0;
+          }
+          &__cvg2{
+            width: 43px;
+            height: 43px;
+            margin: 0 20px 0 0;
+          }
+        }
+
+        &__btn {
+          width: 221px;
+          height: 70px;
+          background: #F0F0F0;
+          box-shadow: -1px 10px 10px rgba(87, 101, 228, 0.25), inset -2px -2px 4px rgba(0, 0, 0, 0.2), inset 3px 4px 10px #FFFFFF;
+          border-radius: 15px;
+          border: none;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+
+          &__a {
+            color: #16AEC0;
+            text-decoration: none;
+          }
+        }
+      }
+
+      &__google {
+        width: 784px;
+        height: 640px;
+      }
+    }
+
+
+  }
+}
+
+
+vd
