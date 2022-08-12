@@ -1,5 +1,7 @@
 import React from 'react';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const Connection = () => {
     return (
         <div id="connection">
@@ -8,7 +10,7 @@ const Connection = () => {
                     <h1 className="connection__title">Наши контакты</h1>
                     <div className="connection__our">
                         <div className="connection__our__pro"></div>
-                        <div className="connection__our__contact">
+                        <div className="connection__our__contact" data-aos="flip-right"  >
                             <div className="connection__our__contact__logos">
                                 <svg className="connection__our__contact__logos__cvg" viewBox="0 0 28 27" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">

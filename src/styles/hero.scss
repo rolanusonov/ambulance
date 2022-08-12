@@ -4,9 +4,10 @@
 }
 
 .container {
-  width: 1140px;
+  width: 1240px;
   margin: 0 auto;
-}
+  border: solid 2px red;
+ }
 
 #hero {
   background: url("../img/Rectangle 9.png") no-repeat center/cover;

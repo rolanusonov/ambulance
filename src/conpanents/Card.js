@@ -1,6 +1,9 @@
 import React from 'react';
- 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const Card = () => {
+
     return (
         <div id="card">
             <div className="container">
@@ -10,7 +13,7 @@ const Card = () => {
                         <h1>Наши услуги</h1>
                     </div>
                     <div className="card__MinCard">
-                        <div className="card__MinCard__cards">
+                        <div className="card__MinCard__cards" data-aos="fade-up-right" >
                             <h4 className="card__MinCard__cards__title2">Срочный вызов</h4>
                             <div className="card__MinCard__cards__p3">
                                 <p>Скорая медицинская помощь взрослым и детям. Профессиональная бригада с врачом прибудет в
@@ -26,7 +29,7 @@ const Card = () => {
                             </div>
 
                         </div>
-                        <div className="card__MinCard__cards">
+                        <div className="card__MinCard__cards" data-aos="fade-left"  >
                             <h4 className="card__MinCard__cards__title2">Срочный вызов</h4>
                             <div className="card__MinCard__cards__p3">
                                 <p>Скорая медицинская помощь взрослым и детям. Профессиональная бригада с врачом прибудет в
@@ -42,7 +45,7 @@ const Card = () => {
                             </div>
 
                         </div>
-                        <div className="card__MinCard__cards">
+                        <div className="card__MinCard__cards" data-aos="fade-up-right" >
                             <h4 className="card__MinCard__cards__title2">Срочный вызов</h4>
                             <div className="card__MinCard__cards__p3">
                                 <p>Скорая медицинская помощь взрослым и детям. Профессиональная бригада с врачом прибудет в
@@ -58,7 +61,7 @@ const Card = () => {
                             </div>
 
                         </div>
-                        <div className="card__MinCard__cards">
+                        <div className="card__MinCard__cards" data-aos="fade-left"  >
                             <h4 className="card__MinCard__cards__title2">Срочный вызов</h4>
                             <div className="card__MinCard__cards__p3">
                                 <p>Скорая медицинская помощь взрослым и детям. Профессиональная бригада с врачом прибудет в
@@ -74,7 +77,7 @@ const Card = () => {
                             </div>
 
                         </div>
-                        <div className="card__MinCard__cards">
+                        <div className="card__MinCard__cards" data-aos="fade-up-right" >
                             <h4 className="card__MinCard__cards__title2">Срочный вызов</h4>
                             <div className="card__MinCard__cards__p3">
                                 <p>Скорая медицинская помощь взрослым и детям. Профессиональная бригада с врачом прибудет в
@@ -90,7 +93,7 @@ const Card = () => {
                             </div>
 
                         </div>
-                        <div className="card__MinCard__cards">
+                        <div className="card__MinCard__cards" data-aos="fade-left"  >
                             <h4 className="card__MinCard__cards__title2">Срочный вызов</h4>
                             <div className="card__MinCard__cards__p3">
                                 <p>Скорая медицинская помощь взрослым и детям. Профессиональная бригада с врачом прибудет в

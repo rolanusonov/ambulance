@@ -1,0 +1,11 @@
+@media (max-width: 1140px) {
+  .container {
+    width: 80%;
+  }
+  #hero .hero__img__ambulance {
+    width: 467px;
+    margin-left: -84px;
+  }
+}
+
+/*# sourceMappingURL=heroAdaptive.css.map */
