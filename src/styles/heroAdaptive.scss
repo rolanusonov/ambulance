@@ -43,6 +43,9 @@
 }
 
 @media (max-width: 768px) {
+  #card .card {
+    background: white;
+  }
   #connection .connection__our {
 
   }
@@ -78,6 +81,15 @@
 }
 
 @media (max-width: 425px) {
+.container{
+  overflow: hidden;
+  padding: 40px;
+ }
+
+  #hero {
+    background: url("../img/Rectangle 9.png") no-repeat center/cover;
+  }
+
   #hero .hero {
     display: flex;
     flex-direction: column;
@@ -94,18 +106,19 @@
     text-align: center;
   }
   #hero .hero__title__row {
-    margin-left: 50px;
+    margin-left: 62px;
   }
   #hero .hero__img__circle {
     display: none;
   }
   #hero .hero__title__btn {
-    margin: 221px 0 50px 63px;
+    margin: 309px 0 50px 63px;
   }
   #hero .hero__img__ambulance {
-    width: 274px;
-    margin-left: 44px;
-    margin-top: -237px;
+     position: relative;
+    width: 394px;
+    margin-left: 123px;
+    margin-top: -545px;
   }
   #card .card__Title {
     font-size: 15px;
@@ -144,7 +157,19 @@
   #footer .footer{
     flex-direction: column;
   }
+
 }
+@media (max-width: 375px) {
+  .container{
+    padding: 35px;
+  }
+}
+@media (max-width: 320px) {
+  .container{
+    padding: 30px;
+  }
+}
+
 
 
 
