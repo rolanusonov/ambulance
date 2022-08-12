@@ -10,7 +10,7 @@ import traced4 from "../img/image 18 (Traced).png";
 
 const Hero = () => {
     return (
-        <div id="hero">
+        <section id="hero">
             <div className="container">
                 <div className="hero">
                     <div className="hero__title">
@@ -37,7 +37,7 @@ const Hero = () => {
                     </div>
                     <div className="hero__img">
                         <img className="hero__img__circle" src={circle} alt=""/>
-                        <img className="hero__img__ambulance" src={ambulance} alt=""/>
+                        <img className="hero__img__ambulance"  data-aos="fade-left" src={ambulance} alt=""/>
 
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const Hero = () => {
 
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

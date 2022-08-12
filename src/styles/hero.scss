@@ -12,6 +12,7 @@
   background: url("../img/Rectangle 9.png") no-repeat center/cover;
 
   .hero {
+    padding: 20px 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -29,7 +30,7 @@
         font-weight: 600;
         font-size: 28px;
         line-height: 59px;
-        width: 779px;
+        width: 579px;
         margin: 50px 0 50px 0;
       }
 
@@ -77,7 +78,7 @@
         position: absolute;
         width: 600px;
         height: 600px;
-        margin-left: -70px;
+        margin-left: -30px;
 
         animation: circleKey 2s linear infinite;
       }
@@ -255,20 +256,23 @@
             text-decoration: none;
             color: #00A1B4;
           }
-          &__titles{
+
+          &__titles {
             font-family: 'Montserrat', sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 24px;
-             color: #00A1B4;
+            color: #00A1B4;
           }
-          &__cvg{
+
+          &__cvg {
             width: 28px;
             height: 28px;
             margin: 0 20px 0 0;
           }
-          &__cvg2{
+
+          &__cvg2 {
             width: 43px;
             height: 43px;
             margin: 0 20px 0 0;
@@ -305,5 +309,37 @@
   }
 }
 
+#footer {
+  background: #00A1B4;
 
-vd
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &__log {
+      display: flex;
+      align-items: center;
+      margin: 30px 0 30px 0;
+    }
+    &__title{
+      width: 293px;
+      font-family: 'Montserrat',sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 37px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    &__tel{
+text-decoration: none;
+      font-family: 'Montserrat',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 37px;
+      color: #FFFFFF;
+    }
+  }
+}

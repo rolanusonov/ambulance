@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from "../conpanents/Hero"
 import Card from "../conpanents/Card";
 import Connection from "../conpanents/Connection";
-import Footer from "../conpanents/footer";
+import Footer from "../conpanents/Footer";
 
 const Home = () => {
     return (
@@ -10,7 +10,7 @@ const Home = () => {
             <Hero/>
             <Card/>
             <Connection/>
-            <Footer/>
+        <Footer/>
         </div>
     );
 };
