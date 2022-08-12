@@ -44,25 +44,25 @@ const Hero = () => {
 
                     </div>
                 </div>
-                <div className="day">
-                    <div className="day__div">
-                        <img className="day__div__img12" src={traced1} alt=""/>
-                        <h3 className="day__div__h312">Работаем день и ночь</h3>
-                    </div>
-                    <div  className="day__div">
-                        <img className="day__div__img12" src={traced2} alt=""/>
-                        <h3 className="day__div__h312">Профессиональная команда</h3>
-                    </div>
-                    <div  className="day__div">
-                        <img className="day__div__img12" src={traced3} alt=""/>
-                        <h3 className="day__div__h312">Гарантия на качество сделанной работы</h3>
-                    </div>
-                    <div  className="day__div">
-                        <img className="day__div__img12" src={traced4} alt=""/>
-                        <h3 className="day__div__h312">Мы любим пунктуальность</h3>
-                    </div>
+                {/*<div className="day">*/}
+                {/*    <div className="day__div">*/}
+                {/*        <img className="day__div__img12" src={traced1} alt=""/>*/}
+                {/*        <h3 className="day__div__h312">Работаем день и ночь</h3>*/}
+                {/*    </div>*/}
+                {/*    <div  className="day__div">*/}
+                {/*        <img className="day__div__img12" src={traced2} alt=""/>*/}
+                {/*        <h3 className="day__div__h312">Профессиональная команда</h3>*/}
+                {/*    </div>*/}
+                {/*    <div  className="day__div">*/}
+                {/*        <img className="day__div__img12" src={traced3} alt=""/>*/}
+                {/*        <h3 className="day__div__h312">Гарантия на качество сделанной работы</h3>*/}
+                {/*    </div>*/}
+                {/*    <div  className="day__div">*/}
+                {/*        <img className="day__div__img12" src={traced4} alt=""/>*/}
+                {/*        <h3 className="day__div__h312">Мы любим пунктуальность</h3>*/}
+                {/*    </div>*/}
 
-                </div>
+                {/*</div>*/}
             </div>
         </section>
     );

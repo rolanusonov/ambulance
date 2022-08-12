@@ -4,9 +4,8 @@
 }
 
 .container {
-  width: 1240px;
+  width: 1140px;
   margin: 0 auto;
-  border: solid 2px red;
 }
 
 #hero {
@@ -139,7 +138,7 @@
   flex-direction: column;
   align-items: start;
   padding: 40px;
-  margin: 20px;
+  margin: 7px;
 }
 #card .card__MinCard__cards__p3 {
   width: 90%;

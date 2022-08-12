@@ -66,6 +66,11 @@ const Connection = () => {
                                 src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5848.508298798211!2d74.5708881!3d42.8674796!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1660320338821!5m2!1sru!2skg"
                                 allowFullScreen="" loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"></iframe>
+
+                        <div className="connection__our__">
+
+                        </div>
+
                     </div>
                 </div>
             </div>
