@@ -100,7 +100,7 @@
 @media (max-width: 576px) {
   .container {
     overflow: hidden;
-    padding: 55px;
+    padding: 57px;
   }
   #hero {
     background: url("../img/Rectangle 9.png") no-repeat center/cover;
