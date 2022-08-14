@@ -4,11 +4,14 @@
   }
   #hero .hero__img__ambulance {
     width: 444px;
-    margin-left: -116px;
+    margin-left: 9px;
+    margin-top: 102px;
   }
   #hero .hero__img__circle {
     width: 435px;
     height: 435px;
+    margin-left: 33px;
+    margin-top: 90px;
   }
   #card .card__Title {
     font-size: 25px;
@@ -39,10 +42,29 @@
     font-size: 28px;
     width: 439px;
   }
+  #hero .day__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 154px;
+    height: 144px;
+    background: #FFFFFF;
+    box-shadow: -5.42092px 5.42092px 9.03487px rgba(0, 0, 0, 0.17);
+    border-radius: 50px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+  }
 }
 @media (max-width: 768px) {
   #card .card {
     background: white;
+  }
+  #card .card__mather {
+    display: block;
+  }
+  #card .card__mather {
+    display: flex;
+    justify-content: center;
   }
   #hero .hero__img__ambulance {
     width: 321px;
@@ -51,6 +73,7 @@
   #hero .hero__img__circle {
     width: 300px;
     height: 300px;
+    margin-left: -18px;
   }
   #connection .connection__our__pro {
     /* width: 53px; */
@@ -70,20 +93,44 @@
   #footer .footer__tel {
     font-size: 18px;
   }
+  #hero .day {
+    display: none;
+  }
 }
-@media (max-width: 425px) {
+@media (max-width: 576px) {
   .container {
     overflow: hidden;
-    padding: 40px;
+    padding: 55px;
   }
   #hero {
     background: url("../img/Rectangle 9.png") no-repeat center/cover;
   }
-  #hero .hero {
-    display: flex;
+  #hero .hero__img__circle {
+    display: none;
+  }
+  #hero .hero__title__btn {
+    margin: 250px 0 50px 0;
+  }
+  #hero .hero__img__ambulance {
+    position: relative;
+    width: 428px;
+    margin-left: -285px;
+    margin-top: 108px;
+  }
+  #footer .footer {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    padding: 49px;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    overflow: hidden;
+    padding: 40px;
+    border: solid 2px red;
   }
   #hero .hero__title__logo {
     justify-content: center;
@@ -94,11 +141,36 @@
     width: 335px;
     text-align: center;
   }
+  #hero .hero__img__ambulance {
+    margin-top: 145px;
+  }
+  #hero .hero__title__btn {
+    margin: 304px 0 50px 0;
+  }
+  #connection .connection__our {
+    display: flex;
+    flex-direction: column;
+  }
+  #connection .connection__our__google {
+    width: 343px;
+    height: 257px;
+    margin: 10px 0 10px 0;
+  }
+  #connection .connection__our__contact {
+    width: 236px;
+    height: 331px;
+    position: relative;
+  }
+}
+@media (max-width: 425px) {
+  #hero .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   #hero .hero__title__row {
     margin-left: 62px;
-  }
-  #hero .hero__img__circle {
-    display: none;
   }
   #hero .hero__title__btn {
     margin: 309px 0 50px 63px;
@@ -126,27 +198,25 @@
     font-size: 27px;
     text-align: center;
   }
-  #connection .connection__our__google {
-    width: 343px;
-    height: 257px;
-    margin: 10px 0 10px 0;
+}
+@media (max-width: 400px) {
+  .container {
+    padding: 38px;
   }
-  #connection .connection__our__contact {
-    width: 236px;
-    height: 331px;
-    position: relative;
-  }
-  #connection .connection__our {
-    display: flex;
-    flex-direction: column;
-  }
-  #footer .footer {
-    flex-direction: column;
+}
+@media (max-width: 390px) {
+  .container {
+    padding: 35px;
   }
 }
 @media (max-width: 375px) {
   .container {
     padding: 35px;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    padding: 32px;
   }
 }
 @media (max-width: 320px) {

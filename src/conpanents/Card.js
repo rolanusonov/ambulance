@@ -1,6 +1,10 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import traced1 from "../img/image 15 (Traced).png";
+import traced2 from "../img/image 16 (Traced).png";
+import traced3 from "../img/image 17 (Traced).png";
+import traced4 from "../img/image 18 (Traced).png";
 
 AOS.init();
 const Card = () => {
@@ -93,6 +97,29 @@ const Card = () => {
 
                         </div>
                     </div>
+
+                    <div className="card__mather">
+                        <div className="card__mather__column">
+                            <div className="card__mather__column__columnRev">
+                                <img src={traced1} alt=""/>
+                                <h3 className="card__mather__column__columnRev__p">Работаем день и ночь</h3>
+                            </div>
+                            <div className="card__mather__column__columnRev">
+                                <img src={traced2} alt=""/>
+                                <h3 className="card__mather__column__columnRev__p">Работаем день и ночь</h3>
+                            </div >
+                            <div  className="card__mather__column__columnRev">
+                                <img src={traced3} alt=""/>
+                                <h3 className="card__mather__column__columnRev__p">Работаем день и ночь</h3>
+                            </div>
+                            <div  className="card__mather__column__columnRev">
+                                <img src={traced4} alt=""/>
+                                <h3 className="card__mather__column__columnRev__p">Работаем день и ночь</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
 
                 </div>
 

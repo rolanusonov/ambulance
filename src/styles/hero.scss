@@ -6,7 +6,7 @@
 .container {
   width: 1140px;
   margin: 0 auto;
-  }
+}
 
 #hero {
   background: url("../img/Rectangle 9.png") no-repeat center/cover;
@@ -32,20 +32,6 @@
         line-height: 59px;
         width: 579px;
         margin: 50px 0 50px 0;
-      }
-
-      &__row {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-
-        &__ul {
-          &__li {
-            margin: 15px;
-          }
-        }
       }
 
       &__btn {
@@ -79,15 +65,14 @@
         width: 600px;
         height: 600px;
         margin-left: -30px;
-
-        animation: circleKey 2s linear infinite;
+         animation: circleKey 2s linear infinite;
       }
 
       &__ambulance {
         position: absolute;
         width: 600px;
-        margin-left: -130px;
-      }
+        margin-left: -100px;
+       }
 
     }
   }
@@ -96,12 +81,19 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin: 90px 0 0 0;
 
     &__div {
       display: flex;
       flex-direction: column;
       align-items: center;
-
+      width: 199px;
+      height: 144px;
+      background: #FFFFFF;
+      box-shadow: -5.42092px 5.42092px 9.03487px rgba(0, 0, 0, 0.17);
+      border-radius: 50px;
+      margin: 0 0 20px 0;
+      padding: 10px;
 
       &__img12 {
         width: 100px;
@@ -118,7 +110,7 @@
         line-height: 17px;
         text-align: center;
         margin: 0 0 20px 0;
-        color: #FFFFFF;
+        color: #67CDD9;
       }
     }
   }
@@ -136,8 +128,6 @@
 }
 
 #card {
-
-
   .card {
     background: url("../img/Group 31.png") no-repeat center/cover;
 
@@ -196,6 +186,40 @@
       }
 
     }
+
+    &__mather {
+       display: flex;
+      justify-content: center;
+      margin: 40px 0 40px 0;
+
+      &__column {
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        justify-self: center;
+        width: 500px;
+         &__columnRev {
+          width: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+           &__p{
+             font-family: 'Montserrat',sans-serif;
+             font-style: normal;
+             font-weight: 500;
+             font-size: 12px;
+             line-height: 15px;
+             text-align: center;
+             color: #929292;
+             margin: 10px 0 10px 0;
+           }
+
+        }
+      }
+    }
+&__mather{
+  display: none;
+}
 
   }
 }
@@ -322,9 +346,10 @@
       align-items: center;
       margin: 30px 0 30px 0;
     }
-    &__title{
+
+    &__title {
       width: 293px;
-      font-family: 'Montserrat',sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 30px;
@@ -332,9 +357,10 @@
       text-align: center;
       color: #FFFFFF;
     }
-    &__tel{
-text-decoration: none;
-      font-family: 'Montserrat',sans-serif;
+
+    &__tel {
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 30px;

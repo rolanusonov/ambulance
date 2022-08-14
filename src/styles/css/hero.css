@@ -32,16 +32,6 @@
   width: 579px;
   margin: 50px 0 50px 0;
 }
-#hero .hero__title__row {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-}
-#hero .hero__title__row__ul__li {
-  margin: 15px;
-}
 #hero .hero__title__btn {
   width: 221px;
   height: 70px;
@@ -75,17 +65,25 @@
 #hero .hero__img__ambulance {
   position: absolute;
   width: 600px;
-  margin-left: -130px;
+  margin-left: -100px;
 }
 #hero .day {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin: 90px 0 0 0;
 }
 #hero .day__div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 199px;
+  height: 144px;
+  background: #FFFFFF;
+  box-shadow: -5.42092px 5.42092px 9.03487px rgba(0, 0, 0, 0.17);
+  border-radius: 50px;
+  margin: 0 0 20px 0;
+  padding: 10px;
 }
 #hero .day__div__img12 {
   width: 100px;
@@ -101,7 +99,7 @@
   line-height: 17px;
   text-align: center;
   margin: 0 0 20px 0;
-  color: #FFFFFF;
+  color: #67CDD9;
 }
 
 @keyframes circleKey {
@@ -161,6 +159,37 @@
   font-size: 30px;
   line-height: 37px;
   color: #67CDD9;
+}
+#card .card__mather {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 40px 0;
+}
+#card .card__mather__column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  width: 500px;
+}
+#card .card__mather__column__columnRev {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#card .card__mather__column__columnRev__p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #929292;
+  margin: 10px 0 10px 0;
+}
+#card .card__mather {
+  display: none;
 }
 
 #connection {
