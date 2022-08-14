@@ -40,7 +40,7 @@ const Hero = () => {
                     </div>
                     <div className="hero__img">
                         <img className="hero__img__circle" src={circle} alt=""/>
-                        <img className="hero__img__ambulance" data-aos="fade-left" src={ambulance} alt=""/>
+                        <img className="hero__img__ambulance" src={ambulance} alt=""/>
 
                     </div>
                 </div>

@@ -61,12 +61,13 @@
   width: 600px;
   height: 600px;
   margin-left: -30px;
-  animation: circleKey 2s linear infinite;
+  animation: circleKey 8s linear infinite;
 }
 #hero .hero__img__ambulance {
   position: absolute;
   width: 600px;
   margin-left: -100px;
+  animation: ambulanceKey 1.5s linear 1;
 }
 #hero .day {
   width: 100%;
@@ -109,6 +110,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@keyframes ambulanceKey {
+  from {
+    margin-left: 900px;
+  }
+  to {
+    margin-left: -100px;
   }
 }
 #card .card {

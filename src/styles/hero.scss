@@ -67,13 +67,14 @@
         width: 600px;
         height: 600px;
         margin-left: -30px;
-        animation: circleKey 2s linear infinite;
+        animation: circleKey 8s linear infinite;
       }
 
       &__ambulance {
         position: absolute;
         width: 600px;
         margin-left: -100px;
+        animation: ambulanceKey 1.5s linear 1;
       }
 
     }
@@ -126,7 +127,15 @@
   to {
     transform: rotate(360deg);
   }
+}
 
+@keyframes ambulanceKey {
+  from {
+    margin-left: 900px;
+  }
+  to {
+    margin-left: -100px;
+  }
 }
 
 #card {
@@ -380,7 +389,6 @@
 }
 
 
-
 .lob {
   position: absolute;
   transition: 0.5s linear;
@@ -416,6 +424,7 @@
       transform: scale(1);
     }
   }
+
   &__lab {
     width: 60px;
     height: 60px;
