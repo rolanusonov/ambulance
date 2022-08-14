@@ -15,6 +15,8 @@ const Hero = () => {
     return (
         <section id="hero">
             <div className="container">
+
+
                 <div className="hero">
                     <div className="hero__title">
                         <div className="hero__title__logo">
@@ -26,15 +28,16 @@ const Hero = () => {
                         </div>
                         <a href="tel:+996501482929">
                             <button className="hero__title__btn" data-aos="zoom-out-right">
-                            <h3 className="hero__title__btn__tel"  >Вызвать</h3>
+                                <h3 className="hero__title__btn__tel">Вызвать</h3>
 
-                        </button>
+                            </button>
                         </a>
 
+
                     </div>
-                    <div className="hero__img"  >
+                    <div className="hero__img">
                         <img className="hero__img__circle" src={circle} alt=""/>
-                         <img className="hero__img__ambulance" data-aos="fade-left"   src={ambulance} alt=""/>
+                        <img className="hero__img__ambulance" data-aos="fade-left" src={ambulance} alt=""/>
 
                     </div>
                 </div>
@@ -43,15 +46,15 @@ const Hero = () => {
                         <img className="day__div__img12" src={traced1} alt=""/>
                         <h3 className="day__div__h312">Работаем день и ночь</h3>
                     </div>
-                    <div  className="day__div">
+                    <div className="day__div">
                         <img className="day__div__img12" src={traced2} alt=""/>
                         <h3 className="day__div__h312">Профессиональная команда</h3>
                     </div>
-                    <div  className="day__div">
+                    <div className="day__div">
                         <img className="day__div__img12" src={traced3} alt=""/>
                         <h3 className="day__div__h312">Гарантия на качество сделанной работы</h3>
                     </div>
-                    <div  className="day__div">
+                    <div className="day__div">
                         <img className="day__div__img12" src={traced4} alt=""/>
                         <h3 className="day__div__h312">Мы любим пунктуальность</h3>
                     </div>

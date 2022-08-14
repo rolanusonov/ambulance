@@ -143,6 +143,12 @@ display: none;
     padding: 40px;
     border:solid 2px red;
   }
+  #card .card__MinCard__cards {
+ display: none;
+  }
+  #card .card__Accordions{
+    display: block;
+  }
   #hero .hero__title__logo {
      justify-content: center;
     flex-direction: column;

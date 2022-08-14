@@ -5,6 +5,7 @@ import traced1 from "../img/image 15 (Traced).png";
 import traced2 from "../img/image 16 (Traced).png";
 import traced3 from "../img/image 17 (Traced).png";
 import traced4 from "../img/image 18 (Traced).png";
+import Accordion from "../accordion/Accordion";
 
 AOS.init();
 const Card = () => {
@@ -97,7 +98,9 @@ const Card = () => {
 
                         </div>
                     </div>
-
+                    <div className="card__Accordions">
+                        <Accordion/>
+                    </div>
                     <div className="card__mather">
                         <div className="card__mather__column">
                             <div className="card__mather__column__columnRev">
@@ -119,6 +122,7 @@ const Card = () => {
                         </div>
 
                     </div>
+
 
 
                 </div>

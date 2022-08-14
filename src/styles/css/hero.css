@@ -113,6 +113,9 @@
 #card .card {
   background: url("../img/Group 31.png") no-repeat center/cover;
 }
+#card .card__Accordions {
+  display: none;
+}
 #card .card__Title {
   font-family: "Montserrat", sans-serif;
   font-style: normal;

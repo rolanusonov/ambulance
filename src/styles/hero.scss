@@ -130,7 +130,9 @@
 #card {
   .card {
     background: url("../img/Group 31.png") no-repeat center/cover;
-
+&__Accordions{
+  display: none;
+}
     &__Title {
       font-family: 'Montserrat', sans-serif;
       font-style: normal;
