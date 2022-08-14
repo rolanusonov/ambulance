@@ -7,6 +7,14 @@
     margin-left: 9px;
     margin-top: 102px;
   }
+  @keyframes ambulanceKey {
+    from {
+      margin-left: 900px;
+    }
+    to {
+      margin-left: 9px;
+    }
+  }
   #hero .hero__img__circle {
     width: 435px;
     height: 435px;
@@ -74,6 +82,14 @@
     width: 321px;
     margin-left: -75px;
   }
+  @keyframes ambulanceKey {
+    from {
+      margin-left: 900px;
+    }
+    to {
+      margin-left: -75px;
+    }
+  }
   #hero .hero__img__circle {
     width: 300px;
     height: 300px;
@@ -120,6 +136,14 @@
     width: 428px;
     margin-left: -285px;
     margin-top: 108px;
+  }
+  @keyframes ambulanceKey {
+    from {
+      margin-left: 900px;
+    }
+    to {
+      margin-left: -285px;
+    }
   }
   #footer .footer {
     flex-direction: column;
@@ -189,6 +213,14 @@
     width: 394px;
     margin-left: 123px;
     margin-top: -545px;
+  }
+  @keyframes ambulanceKey {
+    from {
+      margin-left: 900px;
+    }
+    to {
+      margin-left: 123px;
+    }
   }
   #card .card__Title {
     font-size: 15px;
