@@ -9,7 +9,7 @@
 }
 
 #hero {
-  padding: 40px 0 0 0 ;
+  padding: 40px 0 0 0;
   background: url("../img/Rectangle 9.png") no-repeat center/cover;
 
 
@@ -380,42 +380,55 @@
 }
 
 
-.Modal {
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
-}
 
 .lob {
   position: absolute;
   transition: 0.5s linear;
+  margin-left: 5px;
+
 }
 
 .lob2 {
+  margin-left: 5px;
   position: absolute;
   transition: 0.5s linear;
-
 }
 
-.Modal{
+.Modal {
   display: none;
 }
-.Modal {
-   display: flex;
-  align-items: center;
-  justify-content: center;
 
+.Modal {
+  position: fixed;
+
+  right: 100px;
+  bottom: 100px;
+  z-index: 9999;
+  animation: ani 1s infinite linear;
+  @keyframes ani {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
   &__lab {
+    width: 60px;
+    height: 60px;
     position: absolute;
     z-index: 1;
   }
 }
 
 #modal:checked ~ .lob {
-  margin-top: -100px;
+  margin-top: -50px;
 }
 
 #modal:checked ~ .lob2 {
-  margin-left: -100px;
+  margin-left: -50px;
 }
 

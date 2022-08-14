@@ -60,6 +60,7 @@
 @media (max-width: 768px) {
 .Modal{
   display: block;
+  position: fixed;
 }
   #card .card {
     background: white;
@@ -143,8 +144,7 @@ display: none;
   .container{
     overflow: hidden;
     padding: 40px;
-    border:solid 2px red;
-  }
+   }
   #card .card__MinCard__cards {
  display: none;
   }
