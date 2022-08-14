@@ -9,13 +9,16 @@ import traced3 from "../img/image 17 (Traced).png";
 import traced4 from "../img/image 18 (Traced).png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Modal from "../modal/Modal";
 
 const Hero = () => {
     AOS.init();
     return (
         <section id="hero">
-            <div className="container">
 
+
+            <div className="container">
+                <Modal/>
 
                 <div className="hero">
                     <div className="hero__title">

@@ -56,6 +56,9 @@
   }
 }
 @media (max-width: 768px) {
+  .Modal {
+    display: block;
+  }
   #card .card {
     background: white;
   }

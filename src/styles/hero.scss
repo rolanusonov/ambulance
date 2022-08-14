@@ -9,7 +9,9 @@
 }
 
 #hero {
+  padding: 40px 0 0 0 ;
   background: url("../img/Rectangle 9.png") no-repeat center/cover;
+
 
   .hero {
     padding: 20px 0 0 0;
@@ -65,14 +67,14 @@
         width: 600px;
         height: 600px;
         margin-left: -30px;
-         animation: circleKey 2s linear infinite;
+        animation: circleKey 2s linear infinite;
       }
 
       &__ambulance {
         position: absolute;
         width: 600px;
         margin-left: -100px;
-       }
+      }
 
     }
   }
@@ -130,9 +132,11 @@
 #card {
   .card {
     background: url("../img/Group 31.png") no-repeat center/cover;
-&__Accordions{
-  display: none;
-}
+
+    &__Accordions {
+      display: none;
+    }
+
     &__Title {
       font-family: 'Montserrat', sans-serif;
       font-style: normal;
@@ -190,7 +194,7 @@
     }
 
     &__mather {
-       display: flex;
+      display: flex;
       justify-content: center;
       margin: 40px 0 40px 0;
 
@@ -199,29 +203,32 @@
         grid-template-columns:  1fr 1fr;
         justify-self: center;
         width: 500px;
-         &__columnRev {
+
+        &__columnRev {
           width: 200px;
           display: flex;
           justify-content: center;
           align-items: center;
           flex-direction: column;
-           &__p{
-             font-family: 'Montserrat',sans-serif;
-             font-style: normal;
-             font-weight: 500;
-             font-size: 12px;
-             line-height: 15px;
-             text-align: center;
-             color: #929292;
-             margin: 10px 0 10px 0;
-           }
+
+          &__p {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            color: #929292;
+            margin: 10px 0 10px 0;
+          }
 
         }
       }
     }
-&__mather{
-  display: none;
-}
+
+    &__mather {
+      display: none;
+    }
 
   }
 }
@@ -371,3 +378,44 @@
     }
   }
 }
+
+
+.Modal {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.lob {
+  position: absolute;
+  transition: 0.5s linear;
+}
+
+.lob2 {
+  position: absolute;
+  transition: 0.5s linear;
+
+}
+
+.Modal{
+  display: none;
+}
+.Modal {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__lab {
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+#modal:checked ~ .lob {
+  margin-top: -100px;
+}
+
+#modal:checked ~ .lob2 {
+  margin-left: -100px;
+}
+

@@ -9,6 +9,7 @@
 }
 
 #hero {
+  padding: 40px 0 0 0;
   background: url("../img/Rectangle 9.png") no-repeat center/cover;
 }
 #hero .hero {
@@ -318,6 +319,44 @@
   font-size: 30px;
   line-height: 37px;
   color: #FFFFFF;
+}
+
+.Modal {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.lob {
+  position: absolute;
+  transition: 0.5s linear;
+}
+
+.lob2 {
+  position: absolute;
+  transition: 0.5s linear;
+}
+
+.Modal {
+  display: none;
+}
+
+.Modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Modal__lab {
+  position: absolute;
+  z-index: 1;
+}
+
+#modal:checked ~ .lob {
+  margin-top: -100px;
+}
+
+#modal:checked ~ .lob2 {
+  margin-left: -100px;
 }
 
 /*# sourceMappingURL=hero.css.map */
