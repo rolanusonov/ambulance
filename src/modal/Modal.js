@@ -13,10 +13,16 @@ const Modal = () => {
                 <input style={{display:"none"}} id="modal" type="checkbox"/>
 
                 <div className="lob">
-                    <img src={group2} alt=""/>
+                    <a href="tel:+996501482929">
+                        <img src={group2} alt=""/>
+                    </a>
+
                 </div>
                 <div className="lob2">
-                    <img src={group3} alt=""/>
+                    <a href=" https://wa.me/+996501482929">
+                        <img src={group3} alt=""/>
+                    </a>
+
                 </div>
 
             </div>
