@@ -216,7 +216,7 @@ display: none;
   #hero .hero__title__logo {
     justify-content: center;
     flex-direction: column;
-    margin-top: -8px;
+    margin-top: 0;
   }
   #hero .hero__title__Title {
     font-size: 20px;
@@ -313,14 +313,17 @@ display: none;
 
 }
 @media (max-width: 400px) {
-  .container{
-    padding: 38px;
+  .container {
+    padding: -5px!important;
   }
 }
 @media (max-width: 390px) {
   .container{
      padding: 35px;
    }
+  #hero .hero__title__logo {
+    margin-top: -35px;
+  }
   #hero .hero__img__ambulance__car {
     margin-left: -23px;
   }
