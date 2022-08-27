@@ -146,7 +146,7 @@
 @media (max-width: 576px) {
   .container {
     overflow: hidden;
-    padding: 57px;
+    padding: 0;
   }
   #hero {
     background: url("../img/Rectangle 9.png") no-repeat center/cover;
@@ -207,6 +207,7 @@
   #hero .hero__title__logo {
     justify-content: center;
     flex-direction: column;
+    margin-top: -8px;
   }
   #hero .hero__title__Title {
     font-size: 20px;

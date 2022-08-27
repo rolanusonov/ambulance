@@ -28,7 +28,7 @@ const Hero = () => {
                             <h1 data-aos="zoom-out-right">Скорая медицинская помощь 24/7 </h1>
                         </div>
                         <a href="tel:+996701103163">
-                            <button className="hero__title__btn" data-aos="zoom-out-right">
+                            <button className="hero__title__btn" >
                                 <h3 className="hero__title__btn__tel">Вызвать</h3>
 
                             </button>
@@ -42,10 +42,7 @@ const Hero = () => {
                         <span className="hero__img__ambulance">
                             <Flasher/>
                             <img  className="hero__img__ambulance__car"   src={ambulance} alt=""/>
-
                         </span>
-
-
                     </div>
                 </div>
                 <div className="day">
